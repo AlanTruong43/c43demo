@@ -6,4 +6,135 @@
     font-weight: weight;
     font-style: normal;
     font-family: "Roboto", sans-serif;
+    /* background-color: red; */
+}
+
+a{
+    color: black;
+}
+
+header{
+    display: flex;
+    max-width: 100%;
+    background-color: #111827F2;
+    height: 64px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title_brand{
+    font-family: Pacifico;
+    background: linear-gradient(135deg, #22D3EE, #3B82F6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav_menu{
+    display: flex;
+}
+
+.nav_menu a:hover{
+    color: #22D3EE;
+}
+
+.nav_menu li{
+    margin-left: 32px;
+}
+
+.nav_menu li a{
+    color: #D1D5DB;
+}
+
+.nav_func{
+    display: flex;
+    align-items: center;
+}
+
+.nav_func img{
+    width: 19px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.btn_log{
+    background: linear-gradient(135deg, #22D3EE, #3B82F6);
+    color: white;
+    padding: 8px 24px;
+    margin-left: 16px;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #111827F2;
+    max-width: 100%;
+    height: 292px;
+    padding: 65px 0;
+    color: #9CA3AF;
+}
+
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.foot1, .foot2, .foot3, .foot4{
+    width: 20%;
+    /* color: white; */
+}
+
+.foot-1 a{
+    color: #9CA3AF;
+}
+
+.foot-1 a:hover{
+    /* background: linear-gradient(135deg, #22D3EE, #3B82F6); */
+    color: #22D3EE;
+}
+
+.foot-1 li{
+    margin-bottom: 12px;
+}
+
+.foot-1 li:first-child{
+    margin-bottom: 16px;
+    color: white;
+}
+
+.foot1 p, .foot1_social{
+    margin: 16px 0;
+}
+
+.foot1_social img{
+    width: 23px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.foot-2{
+    display: flex;
+    padding-top: 32px;
+    border-top: 1px solid #9CA3AF;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
 }
